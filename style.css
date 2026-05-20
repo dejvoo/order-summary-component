@@ -1,0 +1,83 @@
+body {
+  font-family: "Red Hat Display", sans-serif;
+  background-color: hsl(225, 100%, 94%);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100svh;
+  padding: 20px;
+}
+
+.main-content {
+  background: white;
+  max-width: 320px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  border-radius: 15px;
+  padding: 10px;
+}
+
+.hero-image {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 15px 15px 0px 0px;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: 900;
+}
+
+.description {
+  text-align: center;
+  font-size: 16px;
+  color: hsl(224, 23%, 55%);
+  font-weight: 500;
+}
+
+.plan-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 25px;
+  padding: 15px;
+  border-radius: 10px;
+  background: hsl(225, 100%, 98%);
+}
+
+.music-icon {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.plan-details {
+  margin-right: 15px;
+}
+
+.plan-title {
+  font-size: 16px;
+  font-weight: 900;
+}
+
+.plan-price {
+  color: hsl(224, 23%, 55%);
+}
+
+.plan-change {
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.payment-button {
+  background: hsl(245, 75%, 52%);
+  color: white;
+  display: flex;
+  align-self: stretch;
+}
